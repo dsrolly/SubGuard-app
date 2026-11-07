@@ -20,6 +20,21 @@ SubGuard helps you keep track of all your subscriptions in one place, see where 
 - Guest mode, with your data migrated when you create an account
 - Sign-in with email verification (Firebase Authentication)
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/subguard1.jpeg" width="200" alt="Splash screen"><br>Splash Screen</td>
+    <td align="center"><img src="docs/screenshots/subguard2.jpeg" width="200" alt="Dashboard"><br>Dashboard</td>
+    <td align="center"><img src="docs/screenshots/subguard3.jpeg" width="200" alt="Calendar"><br>Calendar</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/subguard4.jpeg" width="200" alt="Add subscription"><br>Add Subscription</td>
+    <td align="center"><img src="docs/screenshots/subguard5.jpeg" width="200" alt="Analytics and trends"><br>Analytics &amp; Trends</td>
+    <td align="center"><img src="docs/screenshots/subguard6.jpeg" width="200" alt="Settings"><br>Settings</td>
+  </tr>
+</table>
+
 ## Tech stack
 
 - Kotlin
