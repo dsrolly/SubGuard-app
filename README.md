@@ -43,6 +43,41 @@ SubGuard helps you keep track of all your subscriptions in one place, see where 
 - Firebase Authentication and Cloud Firestore
 - Gradle Kotlin DSL with a version catalog
 
+## Project structure
+
+A simplified view of the main folders:
+
+```
+SubGuard-app/
+├── app/
+│   └── src/
+│       ├── main/
+│       │   ├── java/com/davinder/subguard/
+│       │   │   ├── data/
+│       │   │   │   ├── auth/
+│       │   │   │   ├── firebase/     # Firebase Auth manager, Firestore collection names, user session
+│       │   │   │   ├── local/        # Guest-mode stores, guest data migration, app preferences
+│       │   │   │   ├── model/
+│       │   │   │   ├── remote/       # Currency API service
+│       │   │   │   └── repository/
+│       │   │   ├── notification/
+│       │   │   ├── ui/
+│       │   │   │   ├── analytics/
+│       │   │   │   ├── components/
+│       │   │   │   ├── navigation/
+│       │   │   │   ├── screens/      # One folder per screen (dashboard, calendar, settings, ...)
+│       │   │   │   └── theme/
+│       │   │   ├── util/             # App links, cancel guide, category colors, CSV export, date and profile helpers
+│       │   │   └── viewmodel/
+│       │   ├── res/
+│       │   └── AndroidManifest.xml
+│       └── test/
+├── docs/
+│   └── screenshots/                  # App screenshots used in this README
+├── gradle/
+├── build.gradle.kts
+└── settings.gradle.kts
+```
 ## Download
 
 - Latest APK: see the [subguard-releases](https://github.com/dsrolly/subguard-releases) repository
